@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="lightinhaus">
+
+    <div>
+    <header class="header">
+       <div class="logo">
+        <img src="images/logo.jpg">
+        <img src="images/light.png">
+    </header>
+   </div>
+
+   <div class="search">
+    <img src="images/img.png" id="mirror">
+    <p id="fname">Search For A Product, Category or space</p>
+   </div>
+
+   <div class="showroom">
+    <h1>Explore Our Showroom</h1>
+   </div>
+
+   <div class="notsure">
+    <p>
+        Not sure of what you're looking for? No worries, 
+        use <span class="light">Lighting Xplorer</span> to see what you can get.
+    </p>
+   </div>
+   
+   <div class="proceed">
+    <p class="pro">Proceed To Lighting Xplorer</p>
+    <img id="arrow" src="images/arrow.png">
+   </div>
+
+   <div class="borderb">
+   </div>
+
+   <div class="select">
+    <p class="ps">Select Your Space</p>
+    <p class="pv">View All</p>
+   </div>
+    
+   <div class="apt">
+    <p>Select the type of apartment you want to light up.</p>
+   </div>
+
+   <div class="h">
+     <div>
+        <img class="h11" src="images/h1.png">
+        <p id="home">Home</p>
+     </div>
+     <div>
+        <img class="h11" src="images/h2.png">
+        <p id="home">Office</p>
+     </div>
+      <div>
+        <img class="h11" src="images/h3.png">
+        <p id="home">Hotel</p>
+     </div>
+   
+   </div>
+
+   <div class="select">
+    <p class="ps">Featured Products</p>
+    <p class="pv">View All</p>
+   </div>
+
+   <div class="h">
+    <div>
+       <img class="h11" src="images/h4.png">
+       <p id="home">Standing Lamp</p>
+       <p id="home">N45,000</p>
+    </div>
+    <div>
+       <img class="h11" src="images/h5.png">
+       <p id="home">Wooden Chandelier</p>
+       <p id="home">N120,000</p>
+    </div>
+     <div>
+       <img class="h11" src="images/h6.png">
+       <p id="home">Pendant Lamp</p>
+       <p id="home">120,000</p>
+    </div>
+  
+   </div>
+
+   <div class="select">
+    <p class="ps">Featured Categories</p>
+    </div>
+
+    <div class="feature">
+        <img src="images/h7.png">
+    </div>
+
+    <div class="select">
+        <p class="ps">Popular Categories</p>
+    </div>
+     
+    <div class="popular">
+        <div>
+            <img class="h12" src="images/h8.png">
+            <p class="room">Living Room</p>
+        </div>
+        <div>
+            <img class="h12" src="images/h9.png">
+            <p class="room">Restaurant</p>
+        </div>
+        <div>
+            <img class="h12" src="images/h10.png">
+            <p class="room">Dining Table</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>View All Products</p>
+    </footer>
+</div>
+</body>
+</html>
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    
+}
+.lightinhaus
+{
+    background: rgb(233, 233, 236);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+     background: #fff;
+     width: 90%;
+     margin-top: 20px;
+     margin-left: 30px;
+     align-items: center;
+     text-align: center;
+    
+     border-radius: 8px;
+}
+#fname{
+    width: 60%;
+    height: 21px;
+    font-family: 'Poppins';
+font-size: 15px;
+color: rgba(196, 196, 196, 0.986);
+}
+#mirror{
+    margin-left: 40px;
+}
+.showroom{
+    margin-top: 30px;
+    font-family: poppins;
+line-height: 120%;
+width: 80%;
+padding: 30px;
+}
+.notsure{
+    font-family: poppins;
+  width: 100%;
+   font-size: 30px;
+   margin-top: 30px; 
+}
+.notsure p{
+    width: 70%;
+}
+.light{
+    color: rgb(255, 255, 6);
+}
+.proceed{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-family: poppins;
+    width: 350px;
+    background: #000000;
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 25px;
+}
+#arrow{
+   padding: 20px;
+}
+   .borderb{
+    border-bottom: 1px solid rgba(255, 202, 5, 1);
+    margin-top: 40px;
+    width: 420px;
+   }
+   .select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 420px;
+    font-family: poppins;
+    line-height: 10%;
+}
+
+   .ps{
+    font-size: 22px;
+   }
+   .pv{
+    font-size: 16px;
+    color: #F4811F;
+   }
+   .apt{
+    font-family: 'poppins';
+    width: 420px;
+   line-height: 20%;
+   }
+
+   .h{
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+   }
+   #home{
+    font-family: poppins;
+    line-height: 80%;
+    font-size: 16px;
+   }
+ .feature{
+    width: 420px;
+ }
+ .feature > img {
+    width: 100%;
+ }
+ .popular{
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .room{
+        font-family: poppins;
+        line-height: 80%;
+        font-size: 12px;
+       }
+
+footer{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 450px;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    font-family: poppins;
+    margin-top: 40px;
+}
+ 

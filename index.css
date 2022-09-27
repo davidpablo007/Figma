@@ -5,7 +5,8 @@
 
 .lightinhaus
 {
-    background: rgb(233, 233, 236);
+
+    
 }
 .header{
     display: flex;
@@ -15,141 +16,147 @@
     display: flex;
     flex-direction: column;
 }
+
 .search {
     display: flex;
     flex-direction: row;
-     background: #fff;
-     width: 85%;
+     background: rgb(233, 233, 233);
+     width: 90%;
      margin-top: 20px;
-     margin-left: 30px;
+     margin-left: 20px;
      align-items: center;
      text-align: center;
      border-radius: 5px;
-     padding: 20px;
 }
+
 #fname{
-    width: 60%;
     font-family: 'Poppins';
-font-size: 20px;
+font-size: 12px;
 color: rgba(196, 196, 196, 0.986);
-padding-left: 10px;
+padding: 15px;
 }
 #mirror{
     margin-left: 40px;
-    width: 30px;
+    width: 20px;
 }
+
 .showroom{
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: poppins;
-line-height: 120%;
-width: 80%;
-padding-left: 30px;
+font-size: 10px;
+padding-left: 20px;
 }
 .notsure{
     font-family: poppins;
   width: 88%;
-   margin-top: 30px; 
-   padding-left: 30px;
+   margin-top: 15px; 
+   padding-left: 20px;
 }
 .notsurep{
     width: 100%;
-    font-size: 24px;
+    font-size: 14px;
 }
 .light{
     color: rgb(255, 255, 6);
     font-style: italic;
 }
-
 .proceed{
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
-    border: 1px solid #000000;
-    border-radius: 8px;
+    border-radius: 6px;
     font-family: poppins;
-    width: 40%;
+    width: 60%;
     background: #000000;
     color: #fff;
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+    align-items: center;
 }
 .pro{
     padding: 15px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #arrow{
-    padding: 20px;
+    object-fit: contain;
  }
 
  .borderb{
     border-bottom: 2.5px solid rgba(255, 202, 5, 1);
-    margin-top: 40px;
+    margin-top: 15px;
     width: 88%;
-    margin-left: 30px;
+    margin-left: 15px;
    }
 
    .select{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 78%;
+    width: 88%;
     font-family: poppins;
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
    .ps{
-    font-size: 22px;
+    font-size: 14px;
    }
    .pv{
-    font-size: 16px;
+    font-size: 12px;
     color: #F4811F;
    }
 
    .apt{
     font-family: 'poppins';
-    width: 78%;
-    font-size: 22px;
-    margin-top: 25px;
-    margin-left: 30px;
+    width: 79%;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
  }
 
  .h{
-    width: 78%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border-radius: 5px;
-    margin-top: 25px;
+    gap: 6px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+
+   
  }
    #home{
     font-family: poppins;
-    font-size: 16px;
+    font-size: 14px;
    }
+   .h11{
+    border-radius: 15px;
+    border: 0px solid gray;
+   }
+
    .feature{
-    width: 80%;
-    margin-left: 30px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 15px;
  }
  .feature > img {
-    margin-top: 20px;
     width: 88%;
-
  }
-
  .popular{
     width: 88%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 6px;
+    justify-content: space-between;
     margin-top: 20px;
+    margin-left: 16px;
  }
  .room{
         font-family: poppins;
         font-size: 14px;
        }
 
-       footer{
+footer{
         box-sizing: border-box;
         border: 1px solid black;
         border-radius: 8px;
